@@ -22,8 +22,7 @@ Spring Data JPA: Simplifies database access and persistence with JPA (Java Persi
 
 Hibernate: JPA implementation used for ORM (Object-Relational Mapping).
 
-H2 Database (or similar): An in-memory or file-based relational database for development and testing. (You might be using PostgreSQL, MySQL, etc., adjust as needed).
-
+H2 Database (or similar): An in-memory or file-based relational database for development and testing.
 Jackson (fasterxml/jackson): For JSON parsing and serialization (used in ApiCall and DTO mapping).
 
 java.util.Scanner: For handling console input from the user.
@@ -53,7 +52,7 @@ External API: Gutendex - A public domain books API.
 │       └── dto                               # Data Transfer Objects (for API/data mapping)
 │           ├── AuthorDto.java
 │           └── BookDto.java
-│           └── BookPersistenceService.java   # (Potentially duplicated if this is the same as service/BookPersistenceService.java, clarify)
+│           └── BookPersistenceService.java   
 │
 └── src/main/resources
     └── application.properties                # Spring Boot configuration (database, JPA, logging)
